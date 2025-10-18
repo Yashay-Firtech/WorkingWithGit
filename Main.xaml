@@ -84,13 +84,9 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1927,980.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1802,995.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:Int32" Name="Counter">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:Int32" Value="1" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:Int32" Default="1" Name="Counter" />
       <Variable x:TypeArguments="scg:List(x:String)" Name="Countries" />
       <Variable x:TypeArguments="scg:List(x:String)" Name="FirstThreeCountries" />
     </Sequence.Variables>
@@ -105,7 +101,7 @@
           <InArgument x:TypeArguments="x:String">Spain</InArgument>
           <InArgument x:TypeArguments="x:String">Japan</InArgument>
           <InArgument x:TypeArguments="x:String">Brazil</InArgument>
-          <InArgument x:TypeArguments="x:String">India</InArgument>
+          <InArgument x:TypeArguments="x:String">South Africa</InArgument>
           <InArgument x:TypeArguments="x:String">China</InArgument>
         </scg:List>
       </uasc:BuildCollection.NextItems>
